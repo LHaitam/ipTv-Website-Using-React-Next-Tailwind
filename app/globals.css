@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter;
+}
+
+@layer utilities {
+  .btn_white {
+    @apply border-white bg-white px-8 py-3 text-green-50
+  }
+
+  .btn_white_text {
+    @apply border-white bg-white px-8 py-3 text-gray-90
+  }
+
+  .btn_green {
+    @apply border-green-50 bg-green-50 px-8 py-5 text-white
+  }
+
+  .btn_dark_green {
+    @apply bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+  }
+
+  .btn_dark_green_outline {
+    @apply border-gray-20 bg-green-90 px-8 py-5 text-white
+  }
+
+  .max-container {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .padding-container {
+    @apply px-6 lg:px-20 3xl:px-0;
+  }
+
+  .flexCenter {
+    @apply flex items-center justify-center;
+  }
+
+  .flexBetween {
+    @apply flex items-center justify-between;
+  }
+
+  .flexStart {
+    @apply flex items-center justify-start;
+  }
+
+  .flexEnd {
+    @apply flex items-center justify-end;
+  }
+
+  /* FONTS */
+  .regular-64 {
+    @apply text-[64px] font-[400] leading-[120%];
+  }
+
+  .regular-40 {
+    @apply text-[40px] font-[400] leading-[120%];
+  }
+
+  .regular-32 {
+    @apply text-[32px] font-[400];
+  }
+
+  .regular-24 {
+    @apply text-[24px] font-[400];
+  }
+
+  .regular-20 {
+    @apply text-[20px] font-[400];
+  }
+
+  .regular-18 {
+    @apply text-[18px] font-[400];
+  }
+
+  .regular-16 {
+    @apply text-[16px] font-[400];
+  }
+
+  .regular-14 {
+    @apply text-[14px] font-[400];
+  }
+
+  .medium-14 {
+    @apply text-[14px] font-[600];
+  }
+
+  .bold-88 {
+    @apply text-[88px] font-[700] leading-[120%];
+  }
+
+  .bold-64 {
+    @apply text-[64px] font-[700] leading-[120%];
+  }
+
+  .bold-52 {
+    @apply text-[52px] font-[700] leading-[120%];
+  }
+
+  .bold-40 {
+    @apply text-[40px] font-[700] leading-[120%];
+  }
+
+  .bold-32 {
+    @apply text-[32px] font-[700] leading-[120%];
+  }
+
+  .bold-20 {
+    @apply text-[20px] font-[700];
+  }
+
+  .bold-18 {
+    @apply text-[18px] font-[700];
+  }
+
+  .bold-16 {
+    @apply text-[16px] font-[700];
+  }
+
+  /* Hero */
+
+  .shadow{
+    width: 100%;
+    height: 60px;
+    bottom: 0;
+    left: 0;
+    margin-top: -60px;
+    background: url('/shadow.webp') repeat-x;
+  }
+
+  .vid{
+    z-index: -1;
+  }
+
+
+  /* Feature */
+  .feature-phone {
+    @apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex 3xl:left-20;
+  }
+
+  /* Get App */
+  .get-app {
+    @apply max-container relative flex w-full flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+
+
+/* Slider */
+
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.films,
+.series {
+  display: flex;
+  width: 60%;
+  height: 60%;
+  padding: 10px;
+  animation: slide 144s linear infinite;
+}
+
+.channels {
+  display: flex;
+  width: 60%;
+  height: 60%;
+  padding: 10px;
+  animation: slide 144s linear infinite;
+}
+
+.films img,
+.series img {
+  width: 25%;
+  /* padding: 20px; */
+  margin: 20px;
+  border-radius: 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+}
+
+
+.channels img {
+  width: 20%;
+  height: 20%;
+  padding: 0 20px;
+  margin: 20px;
+  margin-top: 5px;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(-400%);
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
+  .support {
+    padding: 10px;
+  }
+
+  .films,
+  .series {
+    display: flex;
+    width: 200%;
+    height: 200%;
+    padding: 10px;
+    animation: slide linear infinite;
+    margin-top: 0px;
+  }
+
+
+  .channels {
+    display: flex;
+    width: 200%;
+    height: 200%;
+    padding: 10px;
+    animation: slide linear infinite;
+  }
+
+  .series img,
+  .channels img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .channels,
+  .films,
+  .series {
+    display: flex;
+    animation: slide 144s linear infinite;
+  }
+}
+
+/* Pricing */
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+
+.button {
+  background-color: #72419B;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.price .grey .button:hover {
+  background: transparent;
+  border: solid 2px;
+  border-color: #72419B;
+  color: #72419B;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+
+  .price li {
+
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 25px;
+  }
+}
+
+/*NAV*/
+.fixed-nav {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fff;
+}
+
+
+/* accordion */
+
+
+.accordion {
+  background-color: whitesmoke;
+  color: #505050;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  display: block;
+  width: 80%;
+  height: 100%;
+  padding: 10px 15px;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: black;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  border-top: none;
+  width: 80%;
+}
