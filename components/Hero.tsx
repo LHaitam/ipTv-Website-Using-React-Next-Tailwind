@@ -8,7 +8,8 @@ const Hero = () => {
       <section className="max-container padding-container flex flex-col items-center justify-center gap-20 py-10 pt-32 pb-32 md:gap-28 lg:py-20 xl:flex-row relative">
         <div className="hero-map" />
 
-        <video autoPlay loop muted className="vid absolute inset-0 object-cover w-full h-full " >
+        <video autoPlay loop muted playsInline className="vid absolute inset-0 object-cover w-full h-full">
+          <source src="/bgv.mp4" type="video/mp4" />
           <source src="/bgv.webm" type="video/webm" />
           {/* Ajoutez ici des sources supplémentaires pour la compatibilité avec d'autres navigateurs, si nécessaire */}
         </video>
@@ -35,6 +36,7 @@ const Hero = () => {
                   alt="star"
                   width={24}
                   height={24}
+                  loading="lazy"
                 />
               ))}
             </div>

@@ -9,7 +9,7 @@ const Pricing = () => {
                     <div className="text-center">
                         <Image src="/diamond.svg" alt="diamond" width={50} height={50} />
                         <h2 className="bold-40 lg:bold-64">Choose Your Plan</h2>
-                        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px] ">
+                        <p className="regular-16 mt-6 text-black xl:max-w-[520px] ">
                             CRISTALE IPTV offers you its different subscriptions that you can use on all applications and different devices such as Smart TV, Android Box, Fire stick, smartphone, tablet, Mag device, enigma2 device, smart satellite receiver, or even on your laptop with VLC Player.
                         </p>
                     </div>

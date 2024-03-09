@@ -11,7 +11,7 @@ const Channels = () => {
         {Array.from({ length: 100 }).map((_, i) => {
           const imageIndex = index % channelsImages.length;
           index++; // Incrémentation de l'index
-          return <Image key={i} src={`/${channelsImages[imageIndex]}`} alt="slider-img" width={100} height={100} />;
+          return <Image key={i} src={`/${channelsImages[imageIndex]}`} alt="slider-img" width={100} height={100} loading="lazy"/>;
         })}
       </div>
     </div>

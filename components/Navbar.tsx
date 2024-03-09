@@ -15,27 +15,31 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo.png" alt="logo" width={110} height={50} />
+        <Image src="/logo.webp" alt="logo" width={110} height={50} loading="lazy"/>
       </Link>
 
       <div className="lg:flex hidden">
-        <ul className={`hidden h-full gap-12 lg:flex ${isMobileMenuOpen ? 'hidden' : 'flex'}`}>
+        <ul className={`hidden h-full gap-12 lg:flex flex text-black`}>
           {NAV_LINKS.map((link) => (
-            <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold">
-              {link.label}
-            </Link>
+            <li key={link.key} className="regular-16 text-gray-50">
+              <Link href={link.href} className="flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold text-black">
+                {link.label}
+              </Link>
+            </li>
           ))}
         </ul>
+
+
       </div>
 
       <div className="lg:flexCenter hidden">
         <Link href="/#Pricing">
-            <Button
-              type="button"
-              title="Order"
-              icon="/order.svg"
-              variant="btn_dark_green"
-            />
+          <Button
+            type="button"
+            title="Order"
+            variant="btn_dark_green"
+            aria-label="Place Order"
+          />
         </Link>
       </div>
 

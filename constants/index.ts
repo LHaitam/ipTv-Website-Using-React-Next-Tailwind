@@ -61,7 +61,7 @@ export const subscriptionPlans = [
           "Netflix",
           "Disney+"
       ],
-      signUpLink: "https://sowl.co/nHc4x"
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=1 Month Subscription !"
   },
   {
       title: "3 Months",
@@ -79,7 +79,7 @@ export const subscriptionPlans = [
           "Netflix",
           "Disney+"
       ],
-      signUpLink: "https://sowl.co/qZFTq"
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=3 Month Subscription !"
   },
   {
       title: "1 Year",
@@ -97,7 +97,7 @@ export const subscriptionPlans = [
           "Netflix",
           "Disney+"
       ],
-      signUpLink: "https://sowl.co/Mf3mY"
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=1 Year Subscription !"
   }
 ];
 
@@ -131,10 +131,10 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'Channels List',
-      'Legal Notice',
-      'General Terms-of Use',
-      'Terms of Sales',
+      /* { title: 'Channels List', url: '/#About' }, */
+      { title: 'Legal Notice', url: '/#About' },
+      { title: 'General Terms-of Use', url: '/#About' },
+      { title: 'Terms of Sales', url: '/#About' },
     ],
   },
   {
@@ -143,7 +143,7 @@ export const FOOTER_LINKS = [
       { title: 'Home', url: '/' },
       { title: 'About', url: '/#About' },
       { title: 'Pricing', url: '/#Pricing' },
-      { title: 'FAQ', url: '/#Faq' },
+      { title: 'FAQ', url: '/#FAQ' },
     ],
   },
 ];

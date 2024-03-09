@@ -12,7 +12,7 @@ const Films = () => {
         {Array.from({ length: 100 }).map((_, i) => {
           const imageIndex = index % filmImages.length;
           index++; // Incrémentation de l'index
-          return <Image key={i} src={`/${filmImages[imageIndex]}`} alt="slider-img" width={200} height={300} />;
+          return <Image key={i} src={`/${filmImages[imageIndex]}`} alt="slider-img" width={200} height={300} loading="lazy"/>;
         })}
       </div>
     </div>

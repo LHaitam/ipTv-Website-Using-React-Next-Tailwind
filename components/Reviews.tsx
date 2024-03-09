@@ -2,11 +2,13 @@
 import React from 'react';
 var $ = require('jquery');
 import Image from 'next/image';
+import "../jquery.d.ts"
 
 
 if (typeof window !== 'undefined') {
-    window.$ = window.jQuery = require('jquery');
+    window['$'] = window['jQuery'] = require('jquery');
 }
+
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import dynamic from 'next/dynamic';
@@ -50,6 +52,7 @@ export default function Slider() {
                             alt="review1"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                     <div className="item">
@@ -58,6 +61,7 @@ export default function Slider() {
                             alt="review2"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                     <div className="item">
@@ -66,6 +70,7 @@ export default function Slider() {
                             alt="review3"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                     <div className="item">
@@ -74,6 +79,7 @@ export default function Slider() {
                             alt="review4"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                     <div className="item">
@@ -82,6 +88,7 @@ export default function Slider() {
                             alt="review5"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                     <div className="item">
@@ -90,6 +97,7 @@ export default function Slider() {
                             alt="review6"
                             width={200}
                             height={300}
+                            loading="lazy"
                         />
                     </div>
                 </OwlCarousel>

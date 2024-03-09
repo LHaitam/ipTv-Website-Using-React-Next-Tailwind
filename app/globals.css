@@ -392,3 +392,15 @@ body {
   border-top: none;
   width: 80%;
 }
+
+li {
+  list-style: none; /* Supprime les marqueurs de liste spécifiquement pour les éléments li */
+}
+
+
+
+.payment-image {
+  max-width: 100%; /* Assurez-vous que les images ne dépassent pas leur conteneur */
+  height: 30; /* Maintient le ratio de l'image */
+  width: 30;
+}

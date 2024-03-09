@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from './Button'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const GetTrial = () => {
   return (
@@ -10,18 +11,21 @@ const GetTrial = () => {
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">What Are You Waiting For?</h2>
           <p className="regular-16 text-gray-10">Get Your 24-Hour Free Trial Now!</p>
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
-            <Button 
-              type="button"
-              title="Free Trial"
-              icon="/gift.svg"
-              variant="btn_white"
-              full
-            />
+            <Link href={"https://api.whatsapp.com/send?phone=+15642247620&text=24H Free Trial !"}>
+              <Button
+                type="button"
+                title="Free Trial"
+                variant="btn_white"
+                full
+                aria-label="Start Free Trial"
+              />
+
+            </Link>
+
           </div>
         </div>
-
         <div className="flex flex-1 items-center justify-end">
-          <Image src="/devices.png" alt="phones" width={550} height={870} />
+          <Image src="/devices.webp" alt="phones" width={550} height={870} loading="lazy"/>
         </div>
       </div>
     </section>
