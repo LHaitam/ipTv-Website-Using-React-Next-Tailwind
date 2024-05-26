@@ -27,7 +27,7 @@ const options = {
             items: 1 // Sur les écrans de moins de 640px, affiche 1 élément
         },
         640: {
-            items: 4 // Sur les écrans de 640px et plus, affiche 4 éléments
+            items: 5 // Sur les écrans de 640px et plus, affiche 4 éléments
         }
     }
 };
@@ -38,66 +38,70 @@ export default function Slider() {
             <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-24 pb-[100px]">
                 <div className='relative flex items-center justify-center h-full'>
                     <div>
-                        <Image src="/diamond.svg" alt="diamond" width={50} height={50} />
-                        <h2 className="bold-40 lg:bold-64">Customers Reviews</h2>
+                        <h2 className="bold-40 lg:bold-64">Avis des Clients</h2>
                     </div>
                 </div>
-
             </section>
-            <div >
+            <div>
                 <OwlCarousel className="owl-theme" {...options}>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review1.webp"
                             alt="review1"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review2.webp"
                             alt="review2"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review3.webp"
                             alt="review3"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review4.webp"
                             alt="review4"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review5.webp"
                             alt="review5"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
-                    <div className="item">
+                    <div className="item" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                         <Image
                             src="/review6.webp"
                             alt="review6"
-                            width={200}
-                            height={300}
+                            width={100}
+                            height={200}
                             loading="lazy"
+                            style={{ height: '80%', width: 'auto' }} // Ajouter ces styles
                         />
                     </div>
                 </OwlCarousel>

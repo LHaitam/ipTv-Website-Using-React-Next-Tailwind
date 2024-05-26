@@ -61,7 +61,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-black">Copyright © 2014-2024 CRISTALE IPTV. All Rights Reserved </p>
+        <p className="regular-14 w-full text-center text-black">Copyright © 2014-2024 CRISTALE IPTV. Tous les droits sont réservés.</p>
         <div className="flex justify-center items-center gap-4 mt-4 flex-wrap">
           <Image src="/bank1.webp" alt="Payment Method 1" width={60} height={60} loading="lazy" className="payment-image" />
           <Image src="/bank2.webp" alt="Payment Method 2" width={60} height={60} loading="lazy" className="payment-image" />

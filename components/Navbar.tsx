@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href="/">
-        <Image src="/logo.webp" alt="logo" width={110} height={50} loading="lazy"/>
+        <Image src="/logo.webp" alt="logo" width={150} height={50} loading="lazy"/>
       </Link>
 
       <div className="lg:flex hidden">
@@ -36,7 +36,7 @@ const Navbar = () => {
         <Link href="/#Pricing">
           <Button
             type="button"
-            title="Order"
+            title="Commander"
             variant="btn_dark_green"
             aria-label="Place Order"
           />

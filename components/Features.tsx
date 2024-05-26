@@ -19,15 +19,7 @@ const Features = () => {
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className='relative'>
-            <Image
-              src="/diamond.svg"
-              alt="diamond"
-              width={50}
-              height={50}
-              className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
-              loading="lazy"
-            />
-            <h2 className="bold-40 lg:bold-64">Our Features</h2>
+            <h2 className="text-center bold-40 lg:bold-64">Nos fonctionnalités </h2>
           </div>
           <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
             {FEATURES.map((feature) => (

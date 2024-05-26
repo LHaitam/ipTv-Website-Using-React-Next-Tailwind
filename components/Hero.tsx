@@ -15,17 +15,9 @@ const Hero = () => {
         </video>
 
         <div className="relative z-20 flex flex-1 flex-col xl:w-1/2 text-center">
-          <Image
-            src="/diamond.svg"
-            alt="diamond"
-            width={50}
-            height={50}
-            className="absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]"
-          />
-          <h1 className="bold-52 lg:bold-88 text-white">All-In-One Premium IPTV Service</h1>
+          <h1 className="bold-52 lg:bold-88 text-white">Service IPTV Premium Tout-en-Un</h1>
           <p className="regular-16 mt-6 text-white xl:max-w-[520px] mx-auto">
-            Enjoy your time with excellent image quality up to 4K, on any device, anytime and anywhere, with over +15,000 channels, +50,000 VOD and uptime 100%
-          </p>
+          Profitez de votre temps avec une qualité d'image excellente allant jusqu'à 4K, sur n'importe quel appareil, à tout moment et n'importe où, avec plus de 15 000 chaînes, plus de 50 000 vidéos à la demande et une disponibilité de 100%.          </p>
 
           <div className="my-11 flex flex-wrap gap-5 items-center justify-center text-white">
             <div className="flex items-center gap-2">
@@ -43,7 +35,7 @@ const Hero = () => {
 
             <p className="bold-16 lg:bold-20 text-blue-70 text-white">
               +30k
-              <span className="regular-16 lg:regular-20 ml-1 v">Happy Customer</span>
+              <span className="regular-16 lg:regular-20 ml-1 v">Client satisfait</span>
             </p>
           </div>
 
@@ -51,14 +43,14 @@ const Hero = () => {
             <Link href="/#GetTrial">
               <Button
                 type="button"
-                title="Free Trial"
+                title="Essai Gratuit"
                 variant="btn_green"
               />
             </Link>
             <Link href="/#HowDoesItWork">
               <Button
                 type="button"
-                title="How does it work ?"
+                title="Comment cela fonctionne-t-il ?"
                 variant="btn_white_text"
               />
             </Link>

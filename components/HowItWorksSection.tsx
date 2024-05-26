@@ -6,8 +6,7 @@ const HowItWorksSection = () => {
     <section id='HowDoesItWork' className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat  pb-[0px]">
       <div className='relative flex items-center justify-center h-full'>
         <div>
-          <Image src="/diamond.svg" alt="diamond" width={50} height={50} />
-          <h2 className="bold-40 lg:bold-64">How Does It Work</h2>
+          <h2 className="text-center bold-40 lg:bold-64">Comment ça Fonctionne ?</h2>
         </div>
       </div>
       <div className="mt-10 flex justify-center">

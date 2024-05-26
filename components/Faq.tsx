@@ -36,55 +36,47 @@ const Faq = () => {
     <section id="FAQ" className="flex flex-col items-center justify-center overflow-hidden py-24 pb-[100px]">
       <div className='relative flex items-center justify-center h-full'>
         <div>
-          <Image src="/diamond.svg" alt="diamond" width={50} height={50} loading="lazy"/>
-          <h2 className="bold-40 lg:bold-64 text-center pb-[60px] pt-0 mt-0">Frequently Asked Questions (FAQ)</h2>
+          <h2 className="bold-40 lg:bold-64 text-center pb-[60px] pt-0 mt-0">Questions Fréquemment Posées (FAQ)</h2>
         </div>
       </div>
-      <button className="accordion">Available payment methods?</button>
+      <button className="accordion">Méthodes de paiement disponibles ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">• PayPal</p>
-        <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">• Credit card</p>
+        <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">• Carte de crédit</p>
       </div>
 
-      <button className="accordion">Which devices can be used for IPTV?</button>
+      <button className="accordion">Sur quels appareils peut-on utiliser l'IPTV ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">
-          Our IPTV services are accessible via all smart TV devices (Samsung, Sony, LG...), all Android
-          devices (phones), Apple TV, iPhone, Google Chromecast, MAG box in the STB emulator app, and
-          FireStick.
+          Nos services IPTV sont accessibles via tous les appareils Smart TV (Samsung, Sony, LG...), tous les appareils Android (téléphones), Apple TV, iPhone, Google Chromecast, MAG box dans l'application STB emulator et FireStick.
         </p>
       </div>
 
-      <button className="accordion">Recommended internet speed?</button>
+      <button className="accordion">Vitesse internet recommandée ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">
-          If your download speed is not less than 30 Mbps, then everything will work smoothly in the highest
-          quality. If you are not sure, ask for a 1-day trial to test the quality first.
+          Si votre vitesse de téléchargement n'est pas inférieure à 30 Mbps, tout fonctionnera parfaitement en haute qualité. Si vous n'êtes pas sûr, demandez un essai d'une journée pour tester la qualité en premier.
         </p>
       </div>
 
-      <button className="accordion">Which countries are present?</button>
+      <button className="accordion">Quels pays sont disponibles ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">
-          Netherlands Belgium France UK Germany Switzerland Austria Poland Spain Malta Portugal Italy USA Canada
-          Australia New Zealand Arabic India Pakistan Iran Turkey Azerbaycan Kurdistan Africa Afghanistan Armenia
-          Exyu Slovenia Albania Greece Latino Brazil Caribbean Suriname Sweden Denmark Norway Finland Czech
-          Bulgaria Romania Hungary Russia Georgia/Kazakh Ukraine Lithuania Latvia Estonia China/HK Malaysia
-          Philippines Indonesia Korea Thailand Taiwan Vietnam
+          Pays-Bas Belgique France Royaume-Uni Allemagne Suisse Autriche Pologne Espagne Malte Portugal Italie États-Unis Canada Australie Nouvelle-Zélande Arabe Inde Pakistan Iran Turquie Azerbaycan Kurdistan Afrique Afghanistan Arménie Exyu Slovénie Albanie Grèce Latino Brésil Caraïbes Suriname Suède Danemark Norvège Finlande République tchèque Bulgarie Roumanie Hongrie Russie Géorgie/Kazakh Ukraine Lituanie Lettonie Estonie Chine/Hong Kong Malaisie Philippines Indonésie Corée Thaïlande Taïwan Vietnam
         </p>
       </div>
 
-      <button className="accordion">How many connections at once?</button>
+      <button className="accordion">Combien de connexions simultanées ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">
-          You may install your account on multiple devices, but keep in mind that it works on 1 at a time.
+          Vous pouvez installer votre compte sur plusieurs appareils, mais gardez à l'esprit qu'il fonctionne sur 1 à la fois.
         </p>
       </div>
 
-      <button className="accordion">Recommended internet speed?</button>
+      <button className="accordion">Quelle est la vitesse internet recommandée ?</button>
       <div className="panel">
         <p className="regular-16 mt-5 bg-white/80 text-black lg:mt-[10px] ">
-          Watch Stream Killer offers you a 24h free trial. With this you can watch all the channels available on our IPTV packages, adult (excl. on demand) channels movies and series.
+          Cristale IPTV vous propose un essai gratuit de 24 heures. Avec cela, vous pouvez regarder toutes les chaînes disponibles sur nos forfaits IPTV, les chaînes pour adultes (excl. à la demande) et les films et séries.
         </p>
       </div>
     </section>

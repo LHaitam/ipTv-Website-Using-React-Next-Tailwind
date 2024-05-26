@@ -1,43 +1,40 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/#About', key: 'about', label: 'About' },
-  { href: '/#Pricing', key: 'pricing', label: 'Pricing' },
+  { href: '/', key: 'home', label: 'Acceuil' },
+  { href: '/#About', key: 'about', label: 'A propos' },
+  { href: '/#Pricing', key: 'pricing', label: 'Tarification' },
   { href: '/#FAQ', key: 'faq ', label: 'FAQ ' },
-  { href: '/#Contact', key: 'contact_us', label: 'Contact Us' },
+  { href: '/#Contact', key: 'contact_us', label: 'Contact' },
 ];
 
 
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: '+15,000 Channels',
+    title: '+15 000 chaînes',
     icon: '/tv.svg',
     variant: 'green',
     description:
-      'With more than 15k channels, we guarantee that you will find your favorite shows!',
+      'Avec plus de 15 000 chaînes, nous garantissons que vous trouverez vos émissions préférées !',
   },
   {
-    title: '24h money back',
+    title: 'Remboursement sous 24 heures',
     icon: '/cashback.svg',
     variant: 'green',
     description:
-      "Within 24h of your purchase you have the option to cancel our IPTV subscription if you are not satisfied. Then you will receive a full refund from us.",
-  },
+    "Vous avez la possibilité d'annuler votre abonnement IPTV dans les 24 heures suivant votre achat si vous n'êtes pas satisfait. Vous recevrez alors un remboursement complet de notre part."  },
   {
-    title: 'All Devices',
+    title: 'Tous les appareils',
     icon: '/devices.svg',
     variant: 'green',
     description:
-      'Our IPTV works on all devices such as Smart TVs, Android, Roku, Formuler, FireStick, MAG, iOS, and any other device that supports M3U or portals.',
-  },
+    "Notre IPTV fonctionne sur tous les appareils tels que les Smart TVs, Android, Roku, Formuler, FireStick, MAG, iOS, et tout autre appareil prenant en charge les fichiers M3U ou les portails."  },
   {
-    title: 'High Quality ',
+    title: 'Haute qualité',
     icon: '/quality.svg',
     variant: 'orange',
     description:
-      'We offer all image qualities (HD/FHD/4K) to view your iptv service everywhere, regardless of your network speed',
-  },
+    "Nous proposons toutes les qualités d'image (HD/FHD/4K) pour visionner votre service IPTV partout, quel que soit votre débit réseau."  },
 ];
 
 
@@ -46,58 +43,55 @@ export const FEATURES = [
 // constants/index.ts
 export const subscriptionPlans = [
   {
-      title: "1 Month",
-      price: "MAD 100",
+      title: "1 Mois",
+      price: "100 MAD",
       features: [
-          "Free apps",
-          "Quick expedition",
-          "Multiple devices",
-          "99.9% uptime",
-          "Friendly technical support",
-          "24/7 support",
-          "Instant activation",
-          "Client satisfaction",
-          "Easy to install",
-          "Netflix",
-          "Disney+"
-      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=1 Month Subscription !"
+        "Applications gratuites",
+        "Expédition rapide",
+        "Multiples appareils",
+        "99,9 % de disponibilité",
+        "Support technique convivial",
+        "Assistance 24/7",
+        "Activation instantanée",
+        "Satisfaction client",
+        "Facile à installer",
+        "Netflix",
+        "Disney+"      ],
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text= Abonnement de 1 mois !"
   },
   {
-      title: "3 Months",
-      price: "MAD 150",
+      title: "3 Mois",
+      price: "150 MAD",
       features: [
-          "Free apps",
-          "Quick expedition",
-          "Multiple devices",
-          "99.9% uptime",
-          "Friendly technical support",
-          "24/7 support",
-          "Instant activation",
-          "Client satisfaction",
-          "Easy to install",
-          "Netflix",
-          "Disney+"
-      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=3 Month Subscription !"
+        "Applications gratuites",
+        "Expédition rapide",
+        "Multiples appareils",
+        "99,9 % de disponibilité",
+        "Support technique convivial",
+        "Assistance 24/7",
+        "Activation instantanée",
+        "Satisfaction client",
+        "Facile à installer",
+        "Netflix",
+        "Disney+"      ],
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=Abonnement de 3 mois !"
   },
   {
-      title: "1 Year",
-      price: "MAD 300",
+      title: "1 An",
+      price: "300 MAD",
       features: [
-          "Free apps",
-          "Quick expedition",
-          "Multiple devices",
-          "99.9% uptime",
-          "Friendly technical support",
-          "24/7 support",
-          "Instant activation",
-          "Client satisfaction",
-          "Easy to install",
-          "Netflix",
-          "Disney+"
-      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=1 Year Subscription !"
+        "Applications gratuites",
+        "Expédition rapide",
+        "Multiples appareils",
+        "99,9 % de disponibilité",
+        "Support technique convivial",
+        "Assistance 24/7",
+        "Activation instantanée",
+        "Satisfaction client",
+        "Facile à installer",
+        "Netflix",
+        "Disney+"      ],
+      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=Abonnement de 1 an"
   }
 ];
 
@@ -105,44 +99,45 @@ export const subscriptionPlans = [
 // HOW IT WORKS SECTION
 export const STEPS = [
   {
-    title: '1. Place your order',
+    title: '1. Passez votre commande',
     icon: '/order.svg',
     variant: 'green',
     description:
-      'Place your order by choosing your preferred subscription period: 1, 3 or 12 months.',
+      'Placez votre commande en choisissant la période d abonnement qui vous convient : 1, 3 ou 12 mois.',
   },
   {
-    title: '2. Get your account',
+    title: '2. Obtenez votre compte',
     icon: '/user.svg',
     variant: 'green',
-    description:'This process can take 15 to 30 minutes.Please check your inbox and your spam folder.\n To speed up the process, please contact us via Whatsapp.',
+    description:'Ce processus peut prendre de 15 à 30 minutes. Veuillez vérifier votre boîte de réception ainsi que votre dossier de courriers indésirables. Pour accélérer le processus, veuillez nous contacter via Whatsapp.',
   },
   {
-    title: '3. Enjoy your IPTV service!',
+    title: '3. Profitez de votre service IPTV !',
     icon: '/play.svg',
     variant: 'green',
     description:
-      'Enjoy all channels, films and series now!',
+      'Profitez de tous les chaînes, des films et des séries dès maintenant !',
   },
 ];
 
 // FOOTER SECTION
 export const FOOTER_LINKS = [
   {
-    title: 'Learn More',
+    title: 'En savoir plus',
     links: [
       /* { title: 'Channels List', url: '/#About' }, */
-      { title: 'Legal Notice', url: '/#About' },
-      { title: 'General Terms-of Use', url: '/#About' },
-      { title: 'Terms of Sales', url: '/#About' },
+      { title: 'Liste des chaînes', url: 'https://drive.google.com/file/d/1Co4uV8wGGCB2QuTopkBhZ12pnBKW6of0/view', target: '_blank', rel: 'noopener noreferrer' },
+      { title: 'Avis légal', url: '/#About' },
+      { title: 'Conditions générales', url: '/#About' },
+      { title: 'Conditions de vente', url: '/#About' },
     ],
   },
   {
-    title: 'Links',
+    title: 'Liens',
     links: [
-      { title: 'Home', url: '/' },
-      { title: 'About', url: '/#About' },
-      { title: 'Pricing', url: '/#Pricing' },
+      { title: 'Acceuil', url: '/' },
+      { title: 'A propos', url: '/#About' },
+      { title: 'Tarification', url: '/#Pricing' },
       { title: 'FAQ', url: '/#FAQ' },
     ],
   },
@@ -150,7 +145,7 @@ export const FOOTER_LINKS = [
 
 
 export const FOOTER_CONTACT_INFO = {
-  title: 'Contact Us',
+  title: 'Contact',
   links: [
     { label: 'WhatsApp', value: '+1 564-224-7620', href: 'https://api.whatsapp.com/send/?phone=%2B15642247620&text&type=phone_number&app_absent=0' },
     { label: 'Email', value: 'contact@cristaleiptv.com', href: 'mailto:contact@cristaleiptv.com' },
