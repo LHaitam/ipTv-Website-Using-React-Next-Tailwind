@@ -68,7 +68,7 @@ const Footer = () => {
           <Image src="/bank3.webp" alt="Payment Method 3" width={60} height={60} loading="lazy" className="payment-image" />
           <Image src="/bank4.webp" alt="Payment Method 4" width={60} height={60} loading="lazy" className="payment-image" />
           <Image src="/bank5.webp" alt="Payment Method 5" width={60} height={60} loading="lazy" className="payment-image" />
-          <Image src="/bank6.webp" alt="Payment Method 6" width={60} height={60} loading="lazy" className="payment-image" />
+          <Image src="/Bank6.webp" alt="Payment Method 6" width={60} height={60} loading="lazy" className="payment-image" />
           <Image src="/bank7.webp" alt="Payment Method 7" width={60} height={60} loading="lazy" className="payment-image" />
           <Image src="/bank8.webp" alt="Payment Method 8" width={60} height={60} loading="lazy" className="payment-image" />
         </div>
