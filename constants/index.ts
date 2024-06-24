@@ -57,7 +57,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text= Abonnement de 1 mois !"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text= Abonnement de 1 mois !"
   },
   {
       title: "3 Mois",
@@ -74,7 +74,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=Abonnement de 3 mois !"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text=Abonnement de 3 mois !"
   },
   {
       title: "1 An",
@@ -91,7 +91,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+15642247620&text=Abonnement de 1 an"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text=Abonnement de 1 an"
   }
 ];
 
