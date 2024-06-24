@@ -11,7 +11,7 @@ const Contact = () => {
                     </h2>
                     <p className="mt-2">Vous avez encore une question ? Envoyez un message</p>
                 </div>
-                <a href="https://wa.me/+15642247620" className="support-btn py-3 px-6 bg-green-500 hover:bg-green-600 rounded-md text-white font-bold text-lg transition duration-300 ease-in-out inline-block mt-4 md:mt-0 md:ml-4">
+                <a href="https://wa.me/+212714303033" className="support-btn py-3 px-6 bg-green-500 hover:bg-green-600 rounded-md text-white font-bold text-lg transition duration-300 ease-in-out inline-block mt-4 md:mt-0 md:ml-4">
                     WhatsApp
                 </a>
             </div>
