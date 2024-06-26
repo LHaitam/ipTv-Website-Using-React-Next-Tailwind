@@ -11,7 +11,7 @@ const GetTrial = () => {
           <h2 className="bold-40 lg:bold-64 xl:max-w-[320px]">Qu'est-ce que vous attendez ?</h2>
           <p className="regular-16 text-gray-10">Obtenez dès maintenant votre essai gratuit de 24 heures !</p>
           <div className="flex w-full flex-col gap-3 whitespace-nowrap xl:flex-row">
-            <Link href={"https://api.whatsapp.com/send?phone=+212714303033&text=24H Free Trial !"}>
+            <Link href={"https://api.whatsapp.com/send?phone=+212714303033&text=Salut ! Comment puis-je vous aider aujourd'hui ?"}>
               <Button
                 type="button"
                 title="Essai Gratuit"
