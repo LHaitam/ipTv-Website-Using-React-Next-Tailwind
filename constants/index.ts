@@ -57,7 +57,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text= Abonnement de 1 mois !"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212 649-111-213&text= Abonnement de 1 mois !"
   },
   {
       title: "3 Mois",
@@ -74,7 +74,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text=Abonnement de 3 mois !"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212649111213&text=Abonnement de 3 mois !"
   },
   {
       title: "1 An",
@@ -91,7 +91,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+212714303033&text=Abonnement de 1 an"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212649111213&text=Abonnement de 1 an"
   }
 ];
 
@@ -147,7 +147,7 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact',
   links: [
-    { label: 'WhatsApp', value: '+212 714-303-033', href: 'https://api.whatsapp.com/send/?phone=%2B15642247620&text&type=phone_number&app_absent=0' },
+    { label: 'WhatsApp', value: '+212 649-111-213', href: 'https://api.whatsapp.com/send/?phone=%2B15642247620&text&type=phone_number&app_absent=0' },
     { label: 'Email', value: 'contact@cristaleiptv.com', href: 'mailto:contact@cristaleiptv.com' },
   ],
 };
