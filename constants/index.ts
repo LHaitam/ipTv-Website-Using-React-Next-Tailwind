@@ -57,7 +57,7 @@ export const subscriptionPlans = [
         "Facile à installer",
         "Netflix",
         "Disney+"      ],
-      signUpLink: "https://api.whatsapp.com/send?phone=+212 649-111-213&text= Abonnement de 1 mois !"
+      signUpLink: "https://api.whatsapp.com/send?phone=+212649111213&text= Abonnement de 1 mois !"
   },
   {
       title: "3 Mois",
