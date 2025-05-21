@@ -5,7 +5,7 @@ import "react-whatsapp-chat-widget/index.css";
 const whatsapp = () => {
     return (
         <WhatsAppWidget
-            phoneNo="212714303033"
+            phoneNo="212649111213"
             position="right"
             widgetWidth="300px"
             widgetWidthMobile="260px"
